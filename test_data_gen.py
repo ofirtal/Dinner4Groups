@@ -50,7 +50,7 @@ def gen_random_address(street_names_database, top_hous_number, num_of_test_stree
 
 
 def create_streets_db():
-    tel_aviv_city_streets_names = get_streets_of_city('rechovot_israel', 5000, 1)
+    tel_aviv_city_streets_names = get_streets_of_city('rechovot_israel.csv', 5000, 1)
     streets_list = gen_random_address(tel_aviv_city_streets_names, 41, 70)
     json_street = json.dumps(streets_list)
     return json_street
