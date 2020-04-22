@@ -1,1 +1,1 @@
-web:gunicorn meeting_gen_main:app
+"web: python meeting_gen_main.py" 
