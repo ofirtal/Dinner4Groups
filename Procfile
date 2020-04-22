@@ -1,1 +1,1 @@
-"web: python meeting_gen_main.py" 
+web: python meeting_gen_main.py
