@@ -8,3 +8,8 @@ app = Flask(__name__)
 @app.route('/')
 def display_streets():
     return create_streets_db()
+
+
+if __name__ == "__main__":
+    app.run()
+
