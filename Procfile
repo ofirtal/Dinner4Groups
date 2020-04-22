@@ -1,1 +1,1 @@
-web: gunicorn meeting_gen_main.wsgi --log-file -
+web: gunicorn meeting_gen_main:app
