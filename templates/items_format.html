@@ -1,0 +1,4 @@
+<h1 dir="rtl">רחובות בתל אביב: </h1>
+{% for item in data %}
+    <p dir="rtl" > {{ item.index }} ת.ז:{{item.id}},{{item.host}}.  כתובת:  {{item.street}}, {{item.street_num}}, {{item.city }} </p>
+{% endfor %}
